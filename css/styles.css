@@ -57,30 +57,39 @@ body {
 }
 
 .nav-list-item {
+  font-family: Roboto;
+  font-weight: 500;
+  font-style: Medium;
+  line-height: 24px;
+  letter-spacing: 2%;
 }
 
-.nav-list-item:hover {
+.nav-list-item:hover .nav-list-item:focus {
   background-color: #404bbf;
 }
 
 .address-link {
- 
 }
 
 .address-list {
-    font-family: Roboto;
-        font-weight: 400;
-        font-style: Regular;
-        font-size: 16px;
-        leading-trim: NONE;
-        line-height: 24px;
-        letter-spacing: 2%;
-          
-        color: var(--primary-text);
+  font-family: Roboto;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 2%;
+
+  color: var(--primary-text);
 }
 
 .address-list-item {
-  
+  font-family: Roboto;
+  font-weight: 400;
+  font-style: Regular;
+  font-size: 16px;
+  leading-trim: NONE;
+  line-height: 24px;
+  letter-spacing: 2%;
 }
 
 .address-list-item:hover {
@@ -96,9 +105,28 @@ body {
 }
 
 .hero-title {
+  font-family: Roboto;
+  font-weight: 700;
+  font-style: Bold;
+  font-size: 56px;
+  line-height: 60px;
+  letter-spacing: 2%;
+  text-align: center;
 }
 
 .hero-button {
+  width: 169;
+  height: 56;
+  angle: 0 deg;
+  opacity: 1;
+  top: 428px;
+  left: 636px;
+  gap: 10px;
+  padding-top: 16px;
+  padding-right: 32px;
+  padding-bottom: 16px;
+  padding-left: 32px;
+  border-radius: 4px;
   background-color: var(--Primary-Brand);
   color: #ffffff;
   cursor: pointer;
