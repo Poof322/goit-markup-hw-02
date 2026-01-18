@@ -1,0 +1,179 @@
+/* 1111 */
+:root {
+    --Primary-Brand: #4D5AE5;
+    --primary-title: #2E2F42;
+    --primary-text: #434455;
+}
+
+ul {
+    list-style-type: none;
+   
+}
+
+a {
+    font-family: inherit;
+    text-decoration: none;
+    color: inherit;
+
+}
+
+button {
+    font-family: inherit;
+}
+
+body {
+    font-family: "Roboto", sans-serif;
+    background-color: #FFFFFF;
+}
+
+/* end1111 */
+
+     /* header */
+.header{
+    
+}
+.logo-link {
+    font-family: Raleway;
+        font-weight: 700;
+        font-style: Bold;
+        font-size: 18px;
+        line-height: 21px;
+        letter-spacing: 3%;
+        text-transform: uppercase;
+    
+}
+
+.accent {
+
+    font-family: Raleway;
+    font-weight: 700;
+    font-style: Bold;
+    font-size: 18px;
+    line-height: 21px;
+    letter-spacing: 3%;
+    text-transform: uppercase;
+    color: #4D5AE5;
+}
+
+.nav-link{
+
+}
+
+.nav-list{
+
+}
+
+.nav-list-item{
+
+}
+
+.nav-list-item:hover{
+    background-color: #404BBF;
+}
+
+.address-link{
+
+}
+
+.address-list{
+
+}
+
+.address-list-item{
+
+}
+
+.address-list-item:hover {
+    background-color: #404BBF;
+}
+/* header */ 
+
+
+
+/* hero-section */
+
+.hero-section{
+ background-color: var(--primary-title);
+ color: #FFFFFF;
+}
+
+.hero-title{
+
+}
+
+.hero-button{
+background-color: var(--Primary-Brand);
+color: #FFFFFF;
+cursor: pointer;
+}
+
+.hero-button:hover{
+    background-color: #404BBF;
+}
+
+/* hero-section */
+
+/* Our Features */
+.features{
+
+}
+
+.features-title{
+
+}
+
+.features-list{
+
+}
+
+.features-list-item{
+
+}
+
+/* End OF */
+
+/* Team */
+.Team{
+ background-color: #F4F4FD;
+}
+
+.team-title{
+
+}
+
+.team-list{
+}
+
+.team-list-item{
+ background-color: #FFFFFF;
+}
+
+/* End Team */
+
+
+/* portfolio */
+.portfolio{
+
+}
+
+.portfolio-title{
+
+}
+
+.portfolio-list{
+
+}
+
+.portfolio-list-item{
+
+}
+
+/* End Portfolio */
+
+/*footer*/
+ footer{
+    color: #F4F4FD;
+ }
+.footer {
+    background-color: var(--primary-title) ;
+}
