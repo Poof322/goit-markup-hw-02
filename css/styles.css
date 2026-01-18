@@ -41,7 +41,7 @@ body {
   font-weight: 700;
   font-size: 18px;
   line-height: 1.2;
-  letter-spacing: 3%;
+  letter-spacing: 3;
   text-transform: uppercase;
   color: #2E2F42;
   
@@ -50,10 +50,9 @@ body {
 .accent {
   font-family: Raleway;
   font-weight: 700;
-
   font-size: 18px;
   line-height: 1.2;
-  letter-spacing: 3%;
+  letter-spacing: 3;
   text-transform: uppercase;
   color: #4d5ae5;
 }
@@ -63,20 +62,18 @@ body {
 }
 
 .nav-list {
-    font-family: Roboto;
         font-weight: 500;
         font-size: 16px;
         line-height: 1.5;
-        letter-spacing: 2%;
+        letter-spacing: 2;
         
 }
 
 .nav-list-item {
-  font-family: Roboto;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
-  letter-spacing: 2%;
+  letter-spacing: 2;
 color: #2E2F42;
 
 }
@@ -93,7 +90,6 @@ color: #404bbf;
 }
 
 .address-list {
-  font-family: Roboto;
   font-weight: 400;
   font-size: 16px;
   line-height: 1.5;
@@ -101,7 +97,6 @@ color: #404bbf;
 }
 
 .address-list-item {
-  font-family: Roboto;
   font-weight: 400;
   font-size: 16px;
   line-height: 24px;
@@ -123,10 +118,9 @@ color: #2E2F42;
 }
 
 .hero-title {
-  font-family: Roboto;
   font-weight: 700;
   font-size: 56px;
-  line-height: 60px;
+  line-height: 1;
   letter-spacing: 2;
   text-align: center;
 }
@@ -151,11 +145,10 @@ color: #2E2F42;
 }
 
 .features-title {
-    font-family: Roboto;
         font-weight: 700;
         font-size: 36px;
-        line-height: 40px;
-        letter-spacing: 2%;
+        line-height: 1.1;
+        letter-spacing: 2;
         text-align: center;
 }
 
@@ -214,7 +207,7 @@ color: #2E2F42;
 }
 
 .portfolio-title {
-    font-family: Roboto;
+
         font-weight: 700;
         font-size: 36px;
         line-height: 1.1;
@@ -227,8 +220,21 @@ color: #2E2F42;
 }
 
 .portfolio-list-item {
+
+}
+.portfolio-list-title{
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 2;
 }
 
+.portfolio-list-text{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 2;
+}
 /* End Portfolio */
 
 
