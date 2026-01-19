@@ -19,6 +19,7 @@ p {
 a {
   font-family: inherit;
   text-decoration: none;
+  color:#2E2F42
 }
 
 button {
@@ -41,7 +42,7 @@ body {
   font-weight: 700;
   font-size: 18px;
   line-height: 1.2;
-  letter-spacing: 0.5em;
+  letter-spacing: 0.05em;
   text-transform: uppercase;
   color: #2E2F42;
   
@@ -52,7 +53,7 @@ body {
   font-weight: 700;
   font-size: 18px;
   line-height: 1.2;
-  letter-spacing: 0.5em;
+  letter-spacing: 0.05em;
   text-transform: uppercase;
   color: #4d5ae5;
 }
@@ -65,7 +66,8 @@ body {
         font-weight: 500;
         font-size: 16px;
         line-height: 1.5;
-        letter-spacing: 0.3em;
+        letter-spacing: 0.03em;
+        
         
 }
 
@@ -73,9 +75,8 @@ body {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
-  letter-spacing: 0.3em;
-color: #2E2F42;
-
+  letter-spacing: 0.03em;
+  
 }
 
 .nav-list-item:hover,
@@ -93,14 +94,15 @@ color: #404bbf;
   font-weight: 400;
   font-size: 16px;
   line-height: 1.5;
-  letter-spacing: 0.3em;
+  letter-spacing: 0.03em;
 }
 
 .address-list-item {
   font-weight: 400;
   font-size: 16px;
+  font-style: normal;
   line-height: 1.5;
-  letter-spacing: 0.3em;
+  letter-spacing: 0.03em;
 color: #2E2F42;
 }
 
@@ -121,14 +123,15 @@ color: #2E2F42;
   font-weight: 700;
   font-size: 56px;
   line-height: 1;
-  letter-spacing: 1.1em;
+  letter-spacing: 0.1em;
   text-align: center;
 }
 
 .hero-button {
-  width: 169;
-  height: 56;
-  border-radius: 4px;
+  font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.06em;
   background-color: var(--Primary-Brand);
   color: #ffffff;
   cursor: pointer;
@@ -148,7 +151,7 @@ color: #2E2F42;
         font-weight: 700;
         font-size: 36px;
         line-height: 1.1;
-        letter-spacing: 0.7em;
+        letter-spacing: 0.07em;
         text-align: center;
 }
 
@@ -161,7 +164,7 @@ color: #2E2F42;
 /* End OF */
 
 /* Team */
-.Team {
+.team {
   background-color: #f4f4fd;
 }
 
@@ -169,7 +172,7 @@ color: #2E2F42;
         font-weight: 700;
         font-size: 36px;
         line-height: 1.1;
-        letter-spacing: 0.7em;
+        letter-spacing: 0.07em;
         text-align: center;
 }
 
@@ -184,7 +187,7 @@ color: #2E2F42;
         font-weight: 500;
         font-size: 20px;
         line-height: 1.2;
-        letter-spacing: 0.4em;
+        letter-spacing: 0.04em;
         text-align: center;
         color: #2E2F42;
 
@@ -194,7 +197,7 @@ color: #2E2F42;
     font-weight: 400;
     font-size: 16px;
     line-height: 1.5;
-    letter-spacing: 0.3em;
+    letter-spacing: 0.03em;
     text-align: center;
 
 }
@@ -210,7 +213,7 @@ color: #2E2F42;
         font-weight: 700;
         font-size: 36px;
         line-height: 1.1;
-        letter-spacing: 0.7em;
+        letter-spacing: 0.07em;
         text-align: center;
 }
 
@@ -225,14 +228,14 @@ color: #2E2F42;
     font-weight: 500;
     font-size: 20px;
     line-height: 1.2;
-    letter-spacing: 0.4em;
+    letter-spacing: 0.04em;
 }
 
 .portfolio-list-text{
     font-weight: 400;
     font-size: 16px;
     line-height: 1.5;
-    letter-spacing: 0.3em;
+    letter-spacing: 0.03em;
 }
 /* End Portfolio */
 
@@ -260,7 +263,7 @@ color: #2E2F42;
     font-family: Raleway;
         font-weight: 700;
         font-size: 18px;
-        line-height: 21px;
+        line-height: 1.1;
         letter-spacing: 0.5em;
         text-transform: uppercase;
 color: #f4f4fd;
