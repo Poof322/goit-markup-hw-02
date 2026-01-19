@@ -38,22 +38,22 @@ body {
 .header {
 }
 .logo-link {
-  font-family: Raleway;
+  font-family: "Raleway" , sans-serif;
   font-weight: 700;
   font-size: 18px;
   line-height: 1.2;
-  letter-spacing: 0.05em;
+  letter-spacing: 0.03em;
   text-transform: uppercase;
   color: #2E2F42;
   
 }
 
 .accent {
-  font-family: Raleway;
+  font-family: "Raleway" , sans-serif;
   font-weight: 700;
   font-size: 18px;
   line-height: 1.2;
-  letter-spacing: 0.05em;
+  letter-spacing: 0.03em;
   text-transform: uppercase;
   color: #4d5ae5;
 }
@@ -66,7 +66,7 @@ body {
         font-weight: 500;
         font-size: 16px;
         line-height: 1.5;
-        letter-spacing: 0.03em;
+        letter-spacing: 0.02em;
         
         
 }
@@ -75,7 +75,7 @@ body {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
-  letter-spacing: 0.03em;
+  letter-spacing: 0.02em;
   
 }
 
@@ -94,7 +94,7 @@ color: #404bbf;
   font-weight: 400;
   font-size: 16px;
   line-height: 1.5;
-  letter-spacing: 0.03em;
+  letter-spacing: 0.02em;
 }
 
 .address-list-item {
@@ -102,7 +102,7 @@ color: #404bbf;
   font-size: 16px;
   font-style: normal;
   line-height: 1.5;
-  letter-spacing: 0.03em;
+  letter-spacing: 0.02em;
 color: #2E2F42;
 }
 
@@ -123,7 +123,7 @@ color: #2E2F42;
   font-weight: 700;
   font-size: 56px;
   line-height: 1;
-  letter-spacing: 0.1em;
+  letter-spacing: 0.02em;
   text-align: center;
 }
 
@@ -131,13 +131,14 @@ color: #2E2F42;
   font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
-    letter-spacing: 0.06em;
+    letter-spacing: 0.04em;
   background-color: var(--Primary-Brand);
   color: #ffffff;
   cursor: pointer;
 }
 
-.hero-button:hover {
+.hero-button:hover,
+.hero-button:focus {
   background-color: #404bbf;
 }
 
@@ -151,7 +152,7 @@ color: #2E2F42;
         font-weight: 700;
         font-size: 36px;
         line-height: 1.1;
-        letter-spacing: 0.07em;
+        letter-spacing: 0.02em;
         text-align: center;
 }
 
@@ -159,6 +160,21 @@ color: #2E2F42;
 }
 
 .features-list-item {
+}
+
+.features-list-title{
+
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+}
+
+.features-list-text{
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
 }
 
 /* End OF */
@@ -172,7 +188,7 @@ color: #2E2F42;
         font-weight: 700;
         font-size: 36px;
         line-height: 1.1;
-        letter-spacing: 0.07em;
+        letter-spacing: 0.02em;
         text-align: center;
 }
 
@@ -187,7 +203,7 @@ color: #2E2F42;
         font-weight: 500;
         font-size: 20px;
         line-height: 1.2;
-        letter-spacing: 0.04em;
+        letter-spacing: 0.02em;
         text-align: center;
         color: #2E2F42;
 
@@ -197,7 +213,7 @@ color: #2E2F42;
     font-weight: 400;
     font-size: 16px;
     line-height: 1.5;
-    letter-spacing: 0.03em;
+    letter-spacing: 0.02em;
     text-align: center;
 
 }
@@ -213,7 +229,7 @@ color: #2E2F42;
         font-weight: 700;
         font-size: 36px;
         line-height: 1.1;
-        letter-spacing: 0.07em;
+        letter-spacing: 0.02em;
         text-align: center;
 }
 
@@ -228,14 +244,14 @@ color: #2E2F42;
     font-weight: 500;
     font-size: 20px;
     line-height: 1.2;
-    letter-spacing: 0.04em;
+    letter-spacing: 0.02em;
 }
 
 .portfolio-list-text{
     font-weight: 400;
     font-size: 16px;
     line-height: 1.5;
-    letter-spacing: 0.03em;
+    letter-spacing: 0.02em;
 }
 /* End Portfolio */
 
@@ -264,7 +280,7 @@ color: #2E2F42;
         font-weight: 700;
         font-size: 18px;
         line-height: 1.1;
-        letter-spacing: 0.5em;
+        letter-spacing: 0.03em;
         text-transform: uppercase;
 color: #f4f4fd;
 }
