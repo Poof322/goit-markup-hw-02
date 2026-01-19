@@ -122,7 +122,7 @@ color: #434455;
 .hero-title {
   font-weight: 700;
   font-size: 56px;
-  line-height: 1;
+  line-height: 1.1;
   letter-spacing: 0.02em;
   text-align: center;
 }
@@ -280,12 +280,18 @@ color: #434455;
     font-family: Raleway;
         font-weight: 700;
         font-size: 18px;
-        line-height: 1.1;
+        line-height: 1.2;
         letter-spacing: 0.03em;
         text-transform: uppercase;
   color: #f4f4fd
 }
 
 .footer-text{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
   color: #f4f4fd
 }
+
+
